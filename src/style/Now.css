@@ -1,0 +1,98 @@
+.now{
+    padding: 3rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.now_container{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+.now_container p{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+.now_container button{
+    background: none;
+    border: none;
+  }
+
+.nowBtn{
+    background-color: #B43F3F;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 3rem 3rem;
+    border: none;
+    font-size: 2rem;
+    height: 4rem;
+    transition: 0.3s;
+  }
+
+  .nowBtn:hover{
+    background-color: #101010;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  .nowBtn:active{
+    transform: scale(0.95);
+  }
+
+  @media (max-width: 1450px){
+    .now_container{
+        display: flex;
+        align-items: center;
+        gap: 10rem;
+    }
+    .now_container p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1244px){
+    .now_container{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 1146px){
+    .now_container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px){
+    .now_container button{
+        padding: 3rem 2rem;
+        font-size: 1.5rem;
+      }
+      .now_container p{
+        font-size: 2rem;
+      }
+}
+
+@media (max-width: 360px){
+    .now_container button{
+        border-radius: 1rem;
+        padding: 3rem 2rem;
+        font-size: 1.2rem;
+      }
+      .now_container p{
+        font-size: 2rem;
+      }
+}

@@ -1,0 +1,126 @@
+.video01 {
+    border-top: 0.1px solid rgb(91, 91, 91);
+    background: #101010;
+    padding: 7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.video_intro {
+    padding: 0 1rem;
+}
+
+.video_intro h3,
+.video_intro p {
+    color: white;
+}
+
+.video_intro h3 {
+    font-size: var(--font-medieval);
+    font-size: 3rem;
+}
+
+.video_intro p {
+    font-size: 4rem;
+}
+
+.fa-circle-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    color: #B43F3F;
+    background: white;
+    width: 5rem;
+    height: 5rem;
+    transition: 0.5s;
+    position: relative;
+}
+
+.fa-circle-play:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fa-circle-play:active {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+/* Modal Style*/
+.modaBackground{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 10; /* Ensure it's above other content */
+}
+
+.modalwindow{
+    background: #101010;
+    height: 100vh;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+}
+
+.video{
+    margin-left: 35rem;
+    width: 50rem;
+}
+
+.closeContainer{
+   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.closeModal{
+    background: transparent;
+    color: rgb(106, 106, 106);
+    font-size: 4rem;
+    border: none;
+}
+
+.closeModal:hover{
+    color: white;
+}
+
+
+
+
+
+@media(max-width:1600px) {
+    .video01 {
+        flex-direction: column;
+    }
+
+    .fa-circle-play {
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width:1000px) {
+    .video_intro h3 {
+        font-size: 2.5rem;
+    }
+
+    .video_intro p {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:530px) {
+    .video_intro h3 {
+        font-size: 2rem;
+    }
+
+    .video_intro p {
+        font-size: 2.5rem;
+    }
+}
