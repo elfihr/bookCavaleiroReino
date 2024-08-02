@@ -28,11 +28,6 @@
     align-items: center;
     gap: 0 0.5rem;
 }
-
-
-
-
-
 /*Links na navBar*/
 
 
@@ -44,7 +39,7 @@
 .navBar a{
     position: relative;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left:1.2rem;
     text-decoration: none;
     font-size:1.7em;
     top: 0.5rem;
