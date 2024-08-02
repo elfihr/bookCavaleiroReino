@@ -84,6 +84,9 @@
       .now_container p{
         font-size: 2rem;
       }
+      .nowBtn{
+        font-size: 1.2rem;
+      }
 }
 
 @media (max-width: 360px){
@@ -94,5 +97,8 @@
       }
       .now_container p{
         font-size: 2rem;
+      }
+      .nowBtn{
+        font-size: 1rem;
       }
 }

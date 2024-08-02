@@ -1,11 +1,11 @@
 import React from 'react'
 import '../style/Hero.css'
-import heroCover from '../assets/pexels-jonathan-goerke-253895-772472.jpg'
+import heroCover from '../assets/hero.webp'
 import heroImg from '../assets/hero.png'
 
 const Hero = () => {
     return (
-        <section className='hero' style={{ backgroundImage: `url(${heroCover})` }}>
+        <section className='hero' id='home' style={{ backgroundImage: `url(${heroCover})`}}>
             <div className='hero_intro'>
                 <h3>Knight of The Kingdom</h3>
                 <p>Leia o primeiro capitulo agora!</p>

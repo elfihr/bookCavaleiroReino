@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/Now.css'
-import NowImg from '../assets/Now.jpg'
+import NowImg from '../assets/Now.webp'
 
 const Now = () => {
     return (

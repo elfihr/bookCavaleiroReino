@@ -1,0 +1,44 @@
+.testimonials {
+    padding: 3rem 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.testimonials_wrapper {
+    display: flex;
+
+}
+
+.testimonialsImg {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.testimonialsDescription {
+    height: 25vh;
+}
+
+.mySwiper {
+    margin: 2rem 0;
+}
+
+.mySwiper p {
+    margin: 2rem 0;
+    padding: 0 2rem;
+    background-color: white;
+
+
+}
+
+@media screen and (max-width: 1024px) and (min-height: 600px){
+    .testimonialsDescription {
+        height: 50vh;
+    }
+}
+
+@media (max-width:768px){
+    .testimonialsDescription {
+        height:  auto;
+    }
+}

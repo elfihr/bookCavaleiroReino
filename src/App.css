@@ -14,11 +14,23 @@
 
 .description{
   font-size: 2rem;
+  text-align: center;
 }
+
+
+.descriptionMini{
+  font-size: 1.5rem;
+}
+
 
 .title{
   font-family: var(--font-medieval);
   color: #B43F3F;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
+@media(max-width: 465px){
+  .title{
+    font-size: 2rem;
+  }
+}

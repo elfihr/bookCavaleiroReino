@@ -22,9 +22,14 @@ const VideoSuggest = () => {
         <h3>Ler um bom livro é sempre bom</h3>
         <p>Veja Opinião dos de alguns leitores por video</p>
       </div>
-      <i className="fa-solid fa-circle-play" onClick={openModal}>
+      {/* <i className="fa-solid fa-circle-play" onClick={openModal}>
         <span className='pulse'></span>
-      </i>
+      </i> */}
+      <div className='wave'  onClick={openModal}>
+        <i className="fa-solid fa-play"></i>
+        <span className='span01;'></span>
+
+      </div>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -32,13 +37,13 @@ const VideoSuggest = () => {
         overlayClassName='modaBackground'
         contentLabel="Modal"
       >
-     
+
         <Container>
-        <div className='closeContainer'>
-          <button className='closeModal' onClick={closeModal}>X</button>
-        </div>
+          <div className='closeContainer'>
+            <button className='closeModal' onClick={closeModal}>X</button>
+          </div>
           <div className="ratio ratio-16x9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/0AiOrh63xVQ?si=V-VtXX0M1WMyT8Zt" title="YouTube video player" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0AiOrh63xVQ?si=V-VtXX0M1WMyT8Zt" title="YouTube video player" allowFullScreen></iframe>
           </div>
         </Container>
       </Modal>

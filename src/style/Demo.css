@@ -46,7 +46,9 @@
 }
 
 .demo_text {
-    padding: 0 4rem;
+    padding:1.7rem 4rem;
+    border: 2px solid #9e9c9c;
+    border-radius: 0.5rem;
 }
 
 @media(max-width:1030px) {
