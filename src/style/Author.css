@@ -9,9 +9,9 @@
 
 .author_container{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
-    padding: 0 6rem;
+    padding: 0 2rem;
     gap: 3rem
 }
 

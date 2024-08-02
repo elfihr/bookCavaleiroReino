@@ -13,15 +13,13 @@
 }
 
 .description{
-  font-size: 2rem;
-  text-align: center;
-}
+  font-size: 1.5rem;
 
+}
 
 .descriptionMini{
   font-size: 1.5rem;
 }
-
 
 .title{
   font-family: var(--font-medieval);
