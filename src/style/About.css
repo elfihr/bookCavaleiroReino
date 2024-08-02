@@ -21,7 +21,7 @@
 .about_Container{
     display: flex;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 2rem 3rem;
     gap: 4rem;
 }
 
@@ -86,8 +86,17 @@
 }
 
 @media(max-width:1600px){
+
+    .about_Container img{
+        width: 50%;
+        border-radius: 1rem;
+    }
+}
+
+@media(max-width:1400px){
+
     .about_Container{
-        flex-direction: column;
+      flex-direction: column;
     }
     .about_Container img{
         width: 99%;
