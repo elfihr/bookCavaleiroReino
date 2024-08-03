@@ -76,21 +76,21 @@
 
 @media (max-width: 550px){
     .now_container button{
-        padding: 3rem 2rem;
+        padding: 1rem 2rem;
         font-size: 1.5rem;
       }
       .now_container p{
         font-size: 2rem;
       }
       .nowBtn{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
 }
 
 @media (max-width: 360px){
     .now_container button{
         border-radius: 1rem;
-        padding: 3rem 2rem;
+        padding: 1rem 2rem;
         font-size: 1.2rem;
       }
       .now_container p{

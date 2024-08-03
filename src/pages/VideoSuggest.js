@@ -42,7 +42,7 @@ const VideoSuggest = () => {
           <div className='closeContainer'>
             <button className='closeModal' onClick={closeModal}>X</button>
           </div>
-          <div className="ratio ratio-16x9">
+          <div className="ratio ratio-21x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0AiOrh63xVQ?si=V-VtXX0M1WMyT8Zt" title="YouTube video player" allowFullScreen></iframe>
           </div>
         </Container>
