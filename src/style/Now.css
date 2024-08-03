@@ -60,14 +60,12 @@
     .now_container p{
         text-align: center;
     }
-}
-
-@media (max-width: 1244px){
     .now_container{
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-    }
+      gap: 3rem;
+  }
+  .now_container{
+    flex-direction: column;
+}
 }
 
 @media (max-width: 1146px){
