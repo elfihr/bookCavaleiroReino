@@ -7,9 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /*paralax*/
-    background-attachment: fixed;
-    margin-top: 5rem;
+
 }
 
 .hero_intro {

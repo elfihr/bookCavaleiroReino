@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
     <Navbar/>
-    <main>
+
       <Hero/>
       <VideoSuggest/>
       <About/>
@@ -30,7 +30,7 @@ function App() {
       <Testimonials/>
       <Contact/>
       <Faq/>
-    </main>
+
     <Footer/>
       
     </div>

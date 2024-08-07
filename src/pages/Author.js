@@ -15,7 +15,7 @@ const Author = () => {
                         Nascido em Rio de Janeiro, desde cedo demonstrou interesse pelas histórias de cavalaria e pelas complexas dinâmicas das cortes medievais.
                         <br /><br />
                         Formado em História pela PUC, ele combinou seu conhecimento acadêmico com uma habilidade narrativa única, resultando em romances que são ao mesmo tempo educativos e emocionantes.
-                        Seus livros são conhecidos por sua pesquisa meticulosa e detalhada, apresentando personagens complexos e cenários vividamente retratados. Marcus de Paula não apenas entretém, mas também ilumina aspectos da vida medieval que muitas vezes são esquecidos, explorando as nuances culturais, políticas e sociais de uma era fascinante.
+                        Seus livros são conhecidos por sua pesquisa meticulosa e detalhada, apresentando personagens complexos e cenários vividamente retratados.
                         <br /><br />
 
                         Ao longo de sua carreira, Marcus de Paula recebeu diversos prêmios literários e conquistou uma legião de fãs ao redor do mundo. Quando não está escrevendo, ele participa de palestras e conferências sobre história medieval, compartilhando seu conhecimento e paixão com outros entusiastas.</p>
