@@ -4,16 +4,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 60vh;
+    padding: 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .now_container{
     display: flex;
     align-items: center;
-    gap: 20rem;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .now_container p{

@@ -97,8 +97,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 13rem;
-    height: 13rem;
+    width: 11rem;
+    height: 11rem;
     background: #B43F3F;
     border-radius: 50%;
     transition: 0.5s;
@@ -118,7 +118,7 @@
 @keyframes waveAnimation{
     100%{
         opacity: 0;
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
 }
 
