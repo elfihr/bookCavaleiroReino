@@ -77,6 +77,9 @@
         height: 4rem;
         font-size: 2rem;
     }
+    .contact {
+        background-attachment: scroll;
+      }
     .contact_container{
         background-color: #101010;
         border-radius: 1rem;

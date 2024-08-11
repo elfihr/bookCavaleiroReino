@@ -1,10 +1,9 @@
 .now{
-    padding: 3rem 0;
+    padding: 4rem 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 4rem;
     display: flex;
     align-items: center;
 }
@@ -74,9 +73,16 @@
     }
 }
 
+@media(max-width:768px) {
+  .now {
+    background-attachment: scroll;
+  }
+}
+
+
 @media (max-width: 550px){
     .now_container button{
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         font-size: 1.5rem;
       }
       .now_container p{
@@ -90,7 +96,7 @@
 @media (max-width: 360px){
     .now_container button{
         border-radius: 1rem;
-        padding: 1rem 2rem;
+        padding:0;
         font-size: 1.2rem;
       }
       .now_container p{

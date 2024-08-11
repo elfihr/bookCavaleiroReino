@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=MedievalSharp&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,29 +8,31 @@
   user-select: none;
 }
 
-:root{
+:root {
   --font-medieval: "MedievalSharp", cursive;
 }
 
 
 
-.description{
+.description {
   font-size: 1.5rem;
 
 }
 
-.descriptionMini{
+.descriptionMini {
   font-size: 1.5rem;
 }
 
-.title{
+.title {
   font-family: var(--font-medieval);
   color: #B43F3F;
   font-size: 3rem;
 }
 
-@media(max-width: 465px){
-  .title{
+
+
+@media(max-width: 465px) {
+  .title {
     font-size: 2rem;
   }
 }

@@ -93,6 +93,12 @@
     }
 }
 
+@media(max-width:768px) {
+    .pusharse {
+      background-attachment: scroll;
+    }
+  }
+
 @media(max-width:450px) {
     .pusharse_container h3,
 .pusharse_container p{
