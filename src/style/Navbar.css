@@ -114,7 +114,7 @@
     }
    
     #check:checked~.navBar{
-        height: 37rem;
+        height: 27rem;
     }
 
 
@@ -137,7 +137,7 @@
         display: block;
         font-size: 1.6em;
         font-weight: 1.1rem;
-        margin: 0.9rem 0;
+        margin: 0.2rem 0;
         text-align: center;
         transition: .3s ease;
         transform: translateY(0);  
