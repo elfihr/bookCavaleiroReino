@@ -24,7 +24,7 @@ const Faq = () => {
 
 
                 <div>
-                <h3 className='colapseTitle'>&#x268A; Questões Frequentes &#x268A;</h3>
+                <h3 className='colapseTitle'>&#x268A; Perguntas Frequentes &#x268A;</h3>
                     <Collapsible className='box_title' trigger="&#8681; Será que Esse Livro é Para mim?" open={count === 1} handleTriggerClick={() => setCount(1)}>
                         <div className='separator'></div>
                         <p className='box_description'>
