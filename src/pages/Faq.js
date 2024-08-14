@@ -30,7 +30,7 @@ const Faq = () => {
                         <p className='box_description'>
                             Se voce gosta de historias mediavais como as obras de Tolkien, provalvemente voce irá gostar muito.
                             <br /> <br />
-                            História é recheiada de aventuras em vários cenários com uma ambienteação rica em qualidade
+                            História é recheada de aventuras em vários cenários com uma ambientação rica em qualidade
                         </p>
                     </Collapsible>
                     <Collapsible className='box_title' trigger="&#8681; Existem Outros Livros do Autor?" open={count === 2} handleTriggerClick={() => setCount(2)}>
