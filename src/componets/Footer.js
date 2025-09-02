@@ -4,7 +4,7 @@ import '../style/Footer.css'
 const Footer = () => {
   return (
     <footer className='footer'>
-        <p>Copyright &copy; Knights From the Kingdom | A Fihr Site</p>
+        <p>Copyright &copy; Knights From the Kingdom | A Lue Site</p>
     </footer>
   )
 }

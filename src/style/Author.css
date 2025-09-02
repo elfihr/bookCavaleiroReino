@@ -1,4 +1,4 @@
-.author{
+.author {
     padding: 5rem 0;
     display: flex;
     align-items: center;
@@ -7,50 +7,56 @@
     background-color: #e9e9e9;
 }
 
-.author_container{
+.author_container {
     display: flex;
-    
+
     align-items: center;
     padding: 0 2rem;
-    gap: 3rem
+    gap: 3rem;
+
 }
 
-.author_container img{
-    width: 33%;
+.author_container img {
+    width: 35rem;
     border-radius: 0.5rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    @media (max-width: 1024px) {
+        width: 28rem;
+    }
 }
 
-.descriptionMini{
+.descriptionMini {
     display: flex;
     flex-direction: column;
     align-items: center;
     word-break: break-word;
 }
 
-.bio_wrapper{
+.bio_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content:space-around ;
+    justify-content: space-around;
 }
 
-.bio_container{
+.bio_container {
     display: flex;
     flex-direction: column;
-  
+
 }
 
-.bio_container h4{
+.bio_container h4 {
     color: #B43F3F;
     font-weight: 700;
 }
 
-.socialMedia{
+.socialMedia {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
-.socialMedia i{
+.socialMedia i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,39 +69,46 @@
     transition: 0.3s;
 }
 
-.socialMedia i:hover{
+.socialMedia i:hover {
     background: #101010;
     transition: 0.3s;
-  }
+}
 
-  @media(max-width:1400px){
-    .author_container{
+@media(max-width:1400px) {
+    .author_container {
         flex-direction: column;
-        
+
     }
-    .author_container img{
+
+    .author_container img {
         width: 50%;
     }
-  }
+}
 
-  @media(max-width:725px){
-    .bio_wrapper{
+@media(max-width:725px) {
+    .bio_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
-    .author_container{
+
+    .author_container {
 
         padding: 0 2rem;
         gap: 3rem
     }
-  }
+}
 
-  @media(max-width:464px){
-    .bio_wrapper{
+@media(max-width:464px) {
+    .bio_wrapper {
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
-    .socialMedia{
-    grid-template-columns: repeat(2,1fr);
 
+    .socialMedia {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .author_container img {
+        width: 60%;
     }
 }
