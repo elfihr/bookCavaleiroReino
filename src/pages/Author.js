@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/Author.css'
-import author from '../assets/author.jpg'
+import author from '../assets/author.webp'
 import { bioAuthor } from '../helper/helper'
 
 const Author = () => {

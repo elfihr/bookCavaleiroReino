@@ -1,7 +1,7 @@
-import client01 from '../assets/testimonials/1.PNG'
-import client02 from '../assets/testimonials/2.PNG'
-import client03 from '../assets/testimonials/3.PNG'
-import client04 from '../assets/testimonials/4.jpg'
+import client01 from '../assets/testimonials/1.webp'
+import client02 from '../assets/testimonials/2.webp'
+import client03 from '../assets/testimonials/3.webp'
+import client04 from '../assets/testimonials/4.webp'
 
 export const bioAuthor = [
     {

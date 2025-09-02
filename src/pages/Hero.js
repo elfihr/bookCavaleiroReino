@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/Hero.css'
 import heroCover from '../assets/hero.webp'
-import heroImg from '../assets/hero.png'
+import heroImg from '../assets/heroBook.webp'
 
 const Hero = () => {
     return (

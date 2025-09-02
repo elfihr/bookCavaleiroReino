@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/Contact.css'
-import contact from '../assets/contact.jpg'
+import contact from '../assets/contact.webp'
 import { contacts } from '../helper/helper'
 
 const Contact = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import '../style/Navbar.css'
 import { menuLinks } from '../helper/helper'
 import { Twirl as Hamburger } from 'hamburger-react'
-import logoico from '../assets/logo.JPG'
+import logoico from '../assets/logo.webp'
 
 
 const Navbar = () => {
